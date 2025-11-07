@@ -158,8 +158,10 @@ $$
 Where:
 
 $$
-* ( \Delta W = \frac{|W_{measured} - W_{true}|}{W_{true}} \times 10 )
-* ( \Delta H = \frac{|H_{measured} - H_{true}|}{H_{true}} \times 10 )
+( \Delta W = \frac{|W_{measured} - W_{true}|}{W_{true}} \times 10 )
+$$
+$$
+( \Delta H = \frac{|H_{measured} - H_{true}|}{H_{true}} \times 10 )
 $$
 
 This model empirically scales error for compact, camera-based measurement setups.
