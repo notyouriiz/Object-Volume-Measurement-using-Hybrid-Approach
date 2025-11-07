@@ -160,7 +160,7 @@ This model empirically scales error for compact, camera-based measurement setups
 ---
 
 
-## Refernces
+## References
 
 Method adapted from:
 
