@@ -166,3 +166,4 @@ Method adapted from:
 
 > Bai, Y., et al. (2006). “Automatic measurement of bread volume by computer vision.”
 > *Journal of Food Engineering, 77(3), 557–563.*
+>https://www.researchgate.net/publication/263011656_Volume_Measurement_Algorithm_for_Food_Product_with_Irregular_Shape_using_Computer_Vision_based_on_Monte_Carlo_Method
