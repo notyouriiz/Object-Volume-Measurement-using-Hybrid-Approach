@@ -51,8 +51,6 @@ object_volume_measurement/
 
 ## 🧠 Installation
 
-### 🪄 Using pip
-
 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/object_volume_measurement.git
@@ -84,8 +82,6 @@ numpy>=1.24.0
 4. A live video window will open — press **Q** to quit.
 
 
----
-
 ## 🧪 Configuration Options
 
 Inside the code or notebook, you can adjust key parameters:
@@ -100,7 +96,7 @@ Inside the code or notebook, you can adjust key parameters:
 | `reference_height_cm`  | Fallback height reference if marker lost       | `2.1`                 |
 | `soft_mode`            | Continue using last-known scale if marker lost | `True`                |
 
----
+
 
 ## 📊 Output
 
@@ -123,10 +119,20 @@ data/Object Measurement_{timestamp}.csv
 
 Columns:
 
-| Timestamp | Frame Index | Marker Status | cm/pixel | Width (cm) | Height (cm) | Volume (cm³) | Margin of Error (%) |
-| --------- | ----------- | ------------- | -------- | ---------- | ----------- | ------------ | ------------------- |
+Got it ✅ — you want the **CSV data (from your code output)** to be shown in a **Markdown table format** like your earlier one, so it’s readable in documentation or notebooks.
+
+Here’s your adapted version 👇
 
 ---
+
+### 📄 Example Measurement Data (No Marker | Marker Detected | Marker was Detected)
+
+| Timestamp           | Frame Index | Marker Status                    | cm/pixel | Width (cm) | Height (cm) | Volume (cm³) | Margin of Error (%) |
+| ------------------- | ----------- | -------------------------------- | -------- | ---------- | ----------- | ------------ | ------------------- |
+| 2025-11-07 22:54:50 | 108         | No marker - using reference size | 0.005313 | 2.922      | 2.550       | 2.948        | 7.724               |
+| 2025-11-07 22:54:51 | 130         | Marker OK (ID 0)                 | 0.070974 | 31.441     | 33.783      | 8061.351     | 23.937              |
+| 2025-11-07 22:55:10 | 550         | Marker lost - using last scale   | 0.031759 | 16.356     | 10.957      | 240.351      | 3.795               |
+
 
 ## 📏 ArUco Marker Printing
 
@@ -139,7 +145,7 @@ Columns:
 
 Place the marker near your object on a flat surface.
 
----
+
 
 ## 🧮 Error Model
 
@@ -157,7 +163,7 @@ $$
 
 This model empirically scales error for compact, camera-based measurement setups.
 
----
+
 
 
 ## References
