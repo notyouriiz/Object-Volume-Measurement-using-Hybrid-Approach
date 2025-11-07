@@ -156,6 +156,7 @@ E_{total} = \sqrt{0.7 \times \Delta W^2 + 0.3 \times \Delta H^2}
 $$
 
 Where:
+
 $$
 * ( \Delta W = \frac{|W_{measured} - W_{true}|}{W_{true}} \times 10 )
 * ( \Delta H = \frac{|H_{measured} - H_{true}|}{H_{true}} \times 10 )
