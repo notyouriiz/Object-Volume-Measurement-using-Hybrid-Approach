@@ -5,6 +5,23 @@
 > Automatically calibrates scale using an **ArUco marker**, estimates **object dimensions and volume**,  
 > and logs results with timestamps to `.csv` files.
 
+Sure! Here’s a **concise version** you can drop directly into your `README.md` under a section like “📸 Object Detection Tips”:
+
+---
+
+## 📸 Object Detection Tips
+For best accuracy, ensure **high contrast** between the object and background.
+
+### ✅ Recommended Setup
+* Use a **dark background** for light objects, or **light background** for dark objects.
+* Keep lighting **even and diffuse** — avoid shadows and reflections.
+* Use a **plain, non-textured surface** behind the object.
+* Keep the **ArUco marker flat, visible, and on the same plane** as the object.
+
+### ⚙️ Why It Matters
+The detection relies on edge and contour detection (Sobel, thresholding).
+Low contrast or noisy backgrounds can cause inaccurate outlines and volume errors.
+
 
 ## 🧩 Features
 - ✅ **Automatic calibration** using ArUco markers  

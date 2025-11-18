@@ -1,0 +1,11 @@
+Timestamp,Frame Index,Marker Status,cm/pixel,Width (cm),Height (cm),Volume (cm^3),Margin of Error (%)
+2025-11-13_20-14-51,2,No marker - using reference size,0.005313,2.741,1.944,1.544,8.033
+2025-11-13_20-14-52,30,No marker - using reference size,0.005313,3.4,1.944,0.549,7.757
+2025-11-13_20-14-53,58,No marker - using reference size,0.005313,3.4,1.944,0.443,7.757
+2025-11-13_20-14-54,89,No marker - using reference size,0.005313,3.4,1.944,3.834,7.757
+2025-11-13_20-14-55,119,No marker - using reference size,0.005313,3.4,0.834,0.104,8.261
+2025-11-13_20-15-06,427,Marker OK (ID 0),0.052546,21.701,12.033,89.62,5.077
+2025-11-13_20-15-07,457,Marker lost - using last scale,0.056002,35.841,15.681,34.29,11.693
+2025-11-13_20-15-08,487,Marker lost - using last scale,0.056002,35.841,16.577,83.679,12.206
+2025-11-13_20-15-09,518,Marker lost - using last scale,0.056002,22.401,3.584,1.138,3.395
+2025-11-13_20-15-10,548,Marker lost - using last scale,0.056002,35.841,20.497,467.289,14.697
